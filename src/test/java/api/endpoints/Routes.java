@@ -6,6 +6,7 @@ Create user(Post) : https://petstore.swagger.io/v2/user
 Get user(Get) : https://petstore.swagger.io/v2/user/{username}
 Update user(Put) : https://petstore.swagger.io/v2/user/{username}
 Delete user(Delete) : https://petstore.swagger.io/v2/user/{username}
+for github- from local to remote
 
 */
 public class Routes {
