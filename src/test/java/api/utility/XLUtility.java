@@ -31,6 +31,7 @@ public class XLUtility {
 	}
 	
 	public int getRowCount(String sheetName) throws IOException {
+		System.out.println(sheetName+"======"+path);
 		fi = new FileInputStream(path);
 		workbook= new XSSFWorkbook(fi);
 		sheet= workbook.getSheet(sheetName);
